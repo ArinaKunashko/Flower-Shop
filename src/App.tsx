@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Container maxWidth="sm">
         <Routes>
-          <Route path='/Flower-Shop/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/store' element={<Store />} />
           <Route path='/about' element={<About />} />
         </Routes>
