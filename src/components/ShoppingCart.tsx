@@ -19,23 +19,29 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
 
     return (
         <>
-
-            <Drawer anchor='right' open={isOpen} onClose={closeCart} sx={{ width: '350px' }}>
+            <Drawer anchor='right' open={isOpen} onClose={closeCart} >
                 <Grid container spacing={2}>
-                    <Grid item xs={10.5}>
+                    <Grid item xs={10}>
+                        <Typography variant='h3' align='center'> Cart </Typography>
+                    </Grid>
+                    <Grid item xs={2}>
+                        <Button onClick={closeCart}>
+                            <CloseIcon> </CloseIcon>
+                        </Button>
+                    </Grid>
+                    <Grid item xs={12}>
                         <Stack
                             sx={{
-                                width: '100%'
+                                width: '100%',
                             }}
-                            justifyContent='center'
-                            alignItems='center'
                             direction='column'
                         >
-                            <Typography> Cart </Typography>
-                            {cartItems.map(item => (
-                                <CartItem key={item.id} {...item} />
-                            ))}
-                            <Typography variant='h5'>
+                            <Stack spacing={5} justifyContent='center' alignItems='center' >
+                                {cartItems.map(item => (
+                                    <CartItem key={item.id} {...item} />
+                                ))}
+                            </Stack>
+                            <Typography variant='h4' align='right' sx={{ marginRight: '100px', marginTop: '20px' }}>
                                 Total{' '}
                                 {formatCurrency(
                                     cartItems.reduce((total, cartItem) => {
@@ -46,11 +52,6 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
                             </Typography>
 
                         </Stack>
-                    </Grid>
-                    <Grid item xs={1.5}>
-                        <Button onClick={closeCart}>
-                            <CloseIcon> </CloseIcon>
-                        </Button>
                     </Grid>
                 </Grid>
             </Drawer>

@@ -1,26 +1,57 @@
 [
     {
       "id": 1,
-      "name": "Book",
-      "price": 10.99,
-      "imgUrl": "/Flower-Shop/imgs/book.jpg"
+      "name": "Tulip",
+      "price": 2.0,
+      "imgUrl": "/Flower-Shop/imgs/tulip.jpg"
     },
     {
       "id": 2,
-      "name": "Computer",
-      "price": 1199,
-      "imgUrl": "/Flower-Shop/imgs/computer.jpg"
+      "name": "Chrysanthemum",
+      "price": 2.5,
+      "imgUrl": "/Flower-Shop/imgs/chrysanthemum.jpg"
     },
     {
       "id": 3,
-      "name": "Orange",
-      "price": 1.05,
-      "imgUrl": "/Flower-Shop/imgs/orange.jpg"
+      "name": "Peony Rose",
+      "price": 3.1,
+      "imgUrl": "/Flower-Shop/imgs/peonyRose.jpg"
     },
     {
       "id": 4,
-      "name": "Car",
-      "price": 14000,
-      "imgUrl": "/Flower-Shop/imgs/car.jpg"
+      "name": "White Rose",
+      "price": 3.3,
+      "imgUrl": "/Flower-Shop/imgs/whiteRose.jpg"
+    },  
+    {
+      "id": 5,
+      "name": "Hydrangea",
+      "price": 3.3,
+      "imgUrl": "/Flower-Shop/imgs/hydrangea.jpg"
+    }, 
+    {
+      "id": 6,
+      "name": "Bouquet With Roses",
+      "price": 80.8,
+      "imgUrl": "/Flower-Shop/imgs/bouquetWithRoses.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Bouquet For Your Beloved",
+      "price": 90.7,
+      "imgUrl": "/Flower-Shop/imgs/bouquetForYourBeloved.jpg"
+    },
+    {
+      "id": 8,
+      "name": "A Basket Of Flowers For An Expensive Person",
+      "price": 70.5,
+      "imgUrl": "/Flower-Shop/imgs/aBasketOfFlowersForAnExpensivePerson.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Bouquet With Sunflower",
+      "price": 89.9,
+      "imgUrl": "/Flower-Shop/imgs/bouquetWithSunflower.jpg"
     }
+   
   ]

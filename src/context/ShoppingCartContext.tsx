@@ -2,7 +2,6 @@ import { createContext, ReactNode, useContext, useState } from 'react'
 import { ShoppingCart } from '../components/ShoppingCart'
 import { useLocalStorage } from '../hooks/useLocalStorag'
 
-
 type ShoppingCartProviderProps = {
     children: ReactNode
 }
@@ -58,24 +57,22 @@ export function ShoppingCartProvider({ children }:
                     } else {
                         return item
                     }
-
                 })
             }
         })
     }
 
     function decreaseCartQuantity(id: number) {
-        setCartItems(currItem => {
-            if (currItem.find(item => item.id === id)?.quantity === 1) {
-                return currItem.filter(item => item.id !== id)
+        setCartItems(currItems => {
+            if (currItems.find(item => item.id === id)?.quantity === 1) {
+                return currItems.filter(item => item.id !== id)
             } else {
-                return currItem.map(item => {
+                return currItems.map(item => {
                     if (item.id === id) {
-                        return { ...item, qantity: item.quantity - 1 }
+                        return { ...item, quantity: item.quantity - 1 }
                     } else {
                         return item
                     }
-
                 })
             }
         })
@@ -99,10 +96,7 @@ export function ShoppingCartProvider({ children }:
             closeCart
         }}>
             {children}
-
-
             <ShoppingCart isOpen={isOpen} />
-
         </ShoppingCartContext.Provider>
     )
 }
