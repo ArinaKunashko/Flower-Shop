@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "//Flower-Shop/static/js/main.276acaef.js",
-    "index.html": "//Flower-Shop/index.html",
-    "main.276acaef.js.map": "//Flower-Shop/static/js/main.276acaef.js.map"
+    "main.js": "/Flower-Shop/static/js/main.44af271b.js",
+    "index.html": "/Flower-Shop/index.html",
+    "main.44af271b.js.map": "/Flower-Shop/static/js/main.44af271b.js.map"
   },
   "entrypoints": [
-    "static/js/main.276acaef.js"
+    "static/js/main.44af271b.js"
   ]
 }
