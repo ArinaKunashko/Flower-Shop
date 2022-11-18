@@ -31,7 +31,7 @@ export function CartItem({ id, quantity }: CartItemProp) {
             />
             <CardContent>
                 <Grid container spacing={3}>
-                    <Grid item xs={10}>
+                    <Grid item xs={9}>
                         <Typography gutterBottom variant='h5' component='div'>
                             {item.name} {quantity > 1 &&
                                 <Typography variant='body2' component='span'> x{quantity} </Typography>}
@@ -40,8 +40,8 @@ export function CartItem({ id, quantity }: CartItemProp) {
                             {formatCurrency(item.price)}
                         </Typography>
                     </Grid>
-                    <Grid item xs={2}>
-                        <Typography sx={{ marginTop: '8px' }} variant='body2' color='text.secondary'>
+                    <Grid item xs={3}>
+                        <Typography sx={{ marginTop: '8px', }} variant='body2' color='text.secondary'>
                             {formatCurrency(item.price * quantity)}
                         </Typography>
                     </Grid>
