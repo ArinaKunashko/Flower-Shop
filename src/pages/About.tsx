@@ -24,7 +24,6 @@ export function About() {
                             We are glad to welcome you in our flower shop!
                         </Typography>
                         <Typography variant='h6' align='left'>
-                            We embody your love in a bouquet!
                             Our team of experienced florists present and present a premium composition.
                         </Typography>
                         <Typography variant='h6' align='left'>

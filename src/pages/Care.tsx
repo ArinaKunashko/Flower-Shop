@@ -7,7 +7,7 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import Stack from '@mui/material/Stack'
 
-export function Home() {
+export function Care() {
     return (
 
         <Box>
@@ -17,15 +17,9 @@ export function Home() {
                         <Typography align='center' gutterBottom variant='h2' component='div' sx={{
                             fontFamily: 'Raleway',
                             color: 'white',
-                            marginTop: '80px'
+                            marginTop: '150px'
                         }}>
-                            “Earth laughs in flowers”
-                        </Typography>
-                        <Typography variant='h5' sx={{
-                            fontFamily: 'Raleway',
-                            color: 'white'
-                        }}>
-                            Ralph Waldo Emerson
+                          ― We embody your love in a bouquet ―
                         </Typography>
                     </Stack>
                 </Grid>

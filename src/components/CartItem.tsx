@@ -54,14 +54,14 @@ export function CartItem({ id, quantity }: CartItemProp) {
                                     direction='row'>
                                     <Button
                                         onClick={() => {
-                                            increaseCartQuantity(id)
-                                        }}
-                                    > <AddIcon /> </Button>
-                                    <Button
-                                        onClick={() => {
                                             decreaseCartQuantity(id)
                                         }}
                                     > <RemoveIcon /> </Button>
+                                    <Button
+                                        onClick={() => {
+                                            increaseCartQuantity(id)
+                                        }}
+                                    > <AddIcon /> </Button>
                                     <Button
                                         onClick={() => {
                                             removeFromCart(id)

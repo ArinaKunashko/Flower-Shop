@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import CssBaseline from '@mui/material/CssBaseline'
-import { Home } from './pages/Care'
+import { Care } from './pages/Care'
 import { Store } from './pages/Store'
 import { About } from './pages/About'
 import Navbar from './components/Navbar'
@@ -26,7 +26,7 @@ function App() {
         <CssBaseline />
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Care />} />
           <Route path='/store' element={<Store />} />
           <Route path='/about' element={<About />} />
         </Routes>
