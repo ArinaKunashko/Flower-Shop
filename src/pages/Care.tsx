@@ -19,7 +19,7 @@ export function Care() {
                             color: 'white',
                             marginTop: '150px'
                         }}>
-                          ― We embody your love in a bouquet ―
+                          ― We embody your love in the bouquet ―
                         </Typography>
                     </Stack>
                 </Grid>
