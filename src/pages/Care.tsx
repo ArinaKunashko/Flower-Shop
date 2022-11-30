@@ -24,10 +24,10 @@ export function Care() {
                     </Stack>
                 </Grid>
 
-                <Grid item xs={12}>
+                <Grid item xs={12} >
                     <Grid container spacing={6}>
-                        <Grid item xs={7}>
-                            <Stack justifyContent='center' sx={{ minHeight: '326px' }}>
+                        <Grid item xs={12} xl={7}>
+                            <Stack justifyContent='center' sx={{ minHeight: '326px', marginRight:'15px'}}>
                                 <Typography variant='h5' align='right'>
                                     Flower care instructions
                                 </Typography>
@@ -40,21 +40,22 @@ export function Care() {
                                 </Typography>
                             </Stack>
                         </Grid>
-                        <Grid item xs={5}>
+                        <Grid item  xl={5}>
                             <img src={vaseForFlowers}
                                 width='100%' />
                         </Grid>
                     </Grid>
                 </Grid>
+
                 <Grid item xs={12}>
                     <Grid container spacing={6}>
-                        <Grid item xs={5}>
+                        <Grid item xl={5}>
                             <img src={cutFlowers}
                                 width='100%'
                             />
                         </Grid>
-                        <Grid item xs={7}>
-                            <Stack justifyContent='center' sx={{ minHeight: '326px' }}>
+                        <Grid item xl={7} >
+                            <Stack justifyContent='center' sx={{ minHeight: '326px', marginLeft:'15px' }}>
                                 <Typography variant='h6'>
                                     There are several pruning secrets that will extend the life of flowers by at least a week.
                                 </Typography>

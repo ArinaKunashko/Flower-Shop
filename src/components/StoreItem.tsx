@@ -30,20 +30,21 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemsProps) {
 
     return (
 
-        <Card sx={{ minWidth: 550, minHeight: 500, }}>
+        <Card sx ={{ height: '500px', width: '300px'}} >
             <CardMedia
                 component='img'
-                height='370px'
                 image={imgUrl}
+                sx={{paddingTop:'2%', height: '70%'}}
             />
+
             <CardContent>
                 <Grid container spacing={2}>
-                    <Grid item xs={10}>
+                    <Grid item xs={9} xl={10}>
                         <Typography gutterBottom variant='h5' component='div'>
                             {name}
                         </Typography>
                     </Grid>
-                    <Grid item xs={2}>
+                    <Grid item xs={3} xl={2}>
                         <Typography variant='body2' color='text.secondary'>
                             {formatCurrency(price)}
                         </Typography>

@@ -9,14 +9,13 @@ export function About() {
     return (
         <Box >
             <Grid container spacing={1}>
-                <Grid item xs={6}>
+                <Grid item xs={12} xl={6}>
                     <img src={aboutus}
-                        height='650px'
-                        width='650px'
+                        width='100%'
                     />
                 </Grid>
-                <Grid item xs={6}>
-                    <Stack justifyContent='center' sx={{ minHeight: '650px', marginRight: '30px' }}>
+                <Grid item xl={6} >
+                    <Stack justifyContent='center' sx={{ minHeight: '650px', marginRight: '30px', marginLeft:'20px' }}>
                         <Typography gutterBottom variant='h3' component='div' align='left'>
                             About Us
                         </Typography>
