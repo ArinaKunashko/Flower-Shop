@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Flower-Shop/static/js/main.78ff7492.js",
+    "main.js": "/Flower-Shop/static/js/main.fe2175aa.js",
     "static/media/aboutus.jpg": "/Flower-Shop/static/media/aboutus.c360a7fad3a395a2fb7c.jpg",
     "static/media/care.jpg": "/Flower-Shop/static/media/care.52db2b8793955551c948.jpg",
     "static/media/cutFlowers.jpg": "/Flower-Shop/static/media/cutFlowers.620943dced24662866eb.jpg",
     "static/media/vaseForFlowers.jpg": "/Flower-Shop/static/media/vaseForFlowers.0fb36cd1851d4d917eca.jpg",
     "index.html": "/Flower-Shop/index.html",
-    "main.78ff7492.js.map": "/Flower-Shop/static/js/main.78ff7492.js.map"
+    "main.fe2175aa.js.map": "/Flower-Shop/static/js/main.fe2175aa.js.map"
   },
   "entrypoints": [
-    "static/js/main.78ff7492.js"
+    "static/js/main.fe2175aa.js"
   ]
 }
